@@ -1,0 +1,72 @@
+body{
+  background-image: url("regi.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+
+
+/* ----------------------styling navigation bar------------------------------------------- */
+
+.navbar{
+ background-color: teal;
+ border-radius: 4px;
+}
+
+.navbar ul{
+ overflow: auto;
+}
+
+.navbar li{
+ float: left;
+ list-style: none;
+ margin: 13px 20px;
+}
+
+.navbar li a{
+ padding: 3px;
+ text-decoration: none;
+ color: black;
+}
+
+.right{
+ float: right;
+ padding: 5px;
+}
+
+
+/* --------------------styling of form ---------------------------------------------- */
+.form {
+ background-image: url('regi.jpg');
+ border: 4px solid teal;
+ /* padding: 2px 20px 5px 20px;
+  */
+  padding: auto;
+ margin: 30px 300px 150px 300px;
+ border-radius: 50px;
+ text-align: center;
+ color:black;
+ font-size: large;
+ 
+ 
+}
+
+
+
+/* ----------------------registeration button-------------------------- */
+.btn{
+ background-color:  rgb(9, 70, 105); 
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ margin: 4px 2px;
+ cursor: pointer;
+ font-size: large;
+}
+
+.btn:hover{
+   background-color: teal;
+}

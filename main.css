@@ -1,0 +1,64 @@
+body{
+     background-image: url("plastic.jpg");
+     background-repeat: no-repeat;
+     background-size: 100%;
+     text-align: center;
+}
+.navbar{
+    background-color: rgb(9, 70, 105);
+    border-radius: 4px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+.navbar li a{
+    padding: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.right{
+    float: right;
+    padding: 5px;
+}
+
+
+.form {
+    background-image: url('plastic.jpg');
+    border: 4px solid rgb(59, 8, 42);
+    padding: 2px 20px 5px 20px;
+    margin: 150px 300px 30px 300px;
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(94, 64, 206);
+    
+    
+}
+
+
+/* .button{
+    background-color: teal;
+} */
+
+.btn{
+    background-color:  rgb(9, 70, 105); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: large;
+  }
+
+  .btn:hover{
+      background-color: teal;
+  }

@@ -1,0 +1,69 @@
+body{
+    background-image: url('log.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+.form{
+    border: 2px solid rgb(9, 70, 105);
+    padding: 10px;
+    margin: 20px 418px 30px 419px;
+    border-radius: 10px;
+    background-image: url('log.jpg');
+    background-size: 200%;
+    font-size: x-large;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgb(9, 70, 105);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: darkblue;
+  }
+
+  .right{
+      float: right;
+      display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .register{
+    background-color:  rgb(9, 70, 105); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: large;
+  }
+
+   .register:hover{
+      background-color: darkblue;
+  } 
+
+  
